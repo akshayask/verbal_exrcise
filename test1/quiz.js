@@ -70,7 +70,7 @@ var ul=document.getElementById('ul');
                 },
                 score:0,
                 scoreCard:function(){
-                	scoreCard.innerHTML=this.questions.length+"/"+this.score;
+                	scoreCard.innerHTML=this.score+"/"+this.questions.length;
                 }
  
            }
